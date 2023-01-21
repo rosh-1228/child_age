@@ -2,7 +2,7 @@
 
 require 'date'
 
-def main
+def example
   birthday = Date.parse('2021-10-10')
 
   child_age(birthday, Date.parse('2022-3-9'))
@@ -36,4 +36,4 @@ def show_age(age_months)
   end
 end
 
-main
+example
